@@ -1,0 +1,27 @@
+<html>
+<forms>
+<head>
+</head>
+<body style="color:blue;font-size:20px;font-style:italic;background-color:pink;font-weight:bold">
+<h1 style="text-align:center">Protofolio</h1>
+<p style="color:green">NAME:</p>
+<input type="text";max_length=100;>
+<p style="color:green">GENDER:</p>
+<input type="radio"
+value:"male">male
+<input type="radio"
+value:"female">female
+<p style="color:green">DEPARTMENT:</p>
+<select name="dropdown"
+size="6"
+<label for="dept-names"> choose a dept name:</label>
+<select name="dept-names" id="dept-names"></select>
+<option value="cse">cse</option value>
+<option value="ece">ece</option value>
+<option value="eee">eee</option value>
+<option value="mech">mech</option value>
+<option value="ai">ai</option value>
+<option value="ds">ds</option value>
+</body>
+</forms>
+</html>

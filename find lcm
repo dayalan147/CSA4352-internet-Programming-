@@ -1,0 +1,14 @@
+<script>
+	const A=prompt("enter the first number");
+	const B=prompt("enter the second number");
+	let max=(A>B)?A:B;
+	let C=max;
+	while(true)
+	{
+		if(C%A==0 && C%B==0){
+			break;
+	}
+	C++;
+}
+document.write(`LCM of ${A} and ${B} is :`,C);
+</script>
